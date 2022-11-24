@@ -11,6 +11,12 @@ body{
     min-height: 100vh;
     background: #efefef;
     flex-wrap: wrap;
+    background-image: url("https://i.ytimg.com/vi/5UmnKlhx_Go/maxresdefault.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*------------------------------------------NAVEGADOR -----------------------------------------------------*/
 header {
@@ -127,7 +133,7 @@ header {
     height: 150px;
     position: absolute;
     background: #fff;
-    padding: 5px;
+    padding: 25px;
     border-radius: 50%;
     bottom: -30%;
     left: 50%;
