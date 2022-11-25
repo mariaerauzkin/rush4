@@ -116,7 +116,15 @@ header {
     clip-path: circle(100% at center);
 }
 
-
+.cards{
+    position: relative;
+    top: 400px;
+    display: flex;
+}
+.cuerpo{
+    position: relative;
+    top: 400px;
+}
 /*------------------------------------------TARJETAS -----------------------------------------------------*/
 
 .card {
@@ -253,6 +261,11 @@ header {
 {
 	text-decoration: none;
 }
+.portafolio-cuerpo-imagen img
+{
+	width: 75%;
+	border-radius: 30%;
+}
 /* PORTFOLIO*/
 #portfolio
 {
@@ -317,6 +330,7 @@ header {
 }
 .contacto-cuerpo-imagen img
 {
+	width: 90%;
 	padding: 120px;
 }
 .contacto-cuerpo-formulario
@@ -330,6 +344,10 @@ header {
 {
 	padding-bottom: 40px;
 	text-align: center;
+}
+.contacto-cuerpo-formulario button
+{
+	width: 100%;
 }
 .txt-naranja
 {
@@ -376,3 +394,4 @@ form .formulario-control
 	border-radius: 4px;
 }
 /*------------------------------------------  PIE DE PAGINA -----------------------------------------------------*/
+
