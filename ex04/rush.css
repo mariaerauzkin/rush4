@@ -10,9 +10,11 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #efefef;
+   /* background: #efefef;*/
+    background-color:#ffffff90;
     flex-wrap: wrap;
     background-image: url("https://i.ytimg.com/vi/5UmnKlhx_Go/maxresdefault.jpg");
+    background-blend-mode: lighten;
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -41,20 +43,19 @@ body{
 }
 /*------------------------------------------NAVEGADOR -----------------------------------------------------*/
 header {
-    width: 10%;
-    height: 100vh;
+    top: 0;
+
     box-shadow: 1px 1px 5px #000;
     display:grid;
     position: fixed;
     width: 100%;
-    
+    z-index: 10;
 }
 .nav{
     background: #0b6f72;
 	overflow: auto;
     height: 80px;
     color: white;
-    
 }
 .nav_container{
     display: flex;
@@ -90,8 +91,8 @@ header {
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 .nav_input:checked + .nav_menu{
-    background:   #0b6f7288;
-    height: 300px;
+    background:   #0b6f72d0;
+    height: 80px;
 }
 .nav_label{
     display: block;
@@ -101,16 +102,16 @@ header {
     position: fixed;
     top: 80px;
     bottom: 0;
-    background: rgba(5, 89, 92, 0.5);
+    background: rgba(5, 89, 92, 0,5);
     width: 100%;
     left: 0;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     clip-path: circle(0 at center);
     transition: clip-path .5s ease-in-out;
-    height: 300px;
+    height: 80px;
 }
 .nav_input:checked + .nav_menu{
     clip-path: circle(100% at center);
@@ -118,12 +119,12 @@ header {
 
 .cards{
     position: relative;
-    top: 400px;
+    top: 180px;
     display: flex;
 }
 .cuerpo{
     position: relative;
-    top: 400px;
+    top: 180px;
 }
 /*------------------------------------------TARJETAS -----------------------------------------------------*/
 
@@ -278,6 +279,7 @@ header {
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 50px;
+    font-size: large;
 }
 .portfolio-cuerpo
 {
@@ -302,6 +304,7 @@ header {
 #sobre-mi p
 {
 	padding-bottom: 20px;
+    font-size: x-large;
 }
 /*contacto*/
 #contacto
@@ -318,6 +321,7 @@ header {
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 50px;
+    font-size: large;
 }
 .contacto-cuerpo
 {
