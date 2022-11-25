@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Baloo 2', cursive;
 }
+html,
 body{
     display: flex;
     align-items: center;
@@ -18,10 +19,30 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.container
+{
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+.large
+{
+	font-size: 1.25rem;
+}
+.btn
+{
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+}
 /*------------------------------------------NAVEGADOR -----------------------------------------------------*/
 header {
     width: 10%;
-    height: 100%;
+    height: 100vh;
     box-shadow: 1px 1px 5px #000;
     display:grid;
     position: fixed;
@@ -30,6 +51,7 @@ header {
 }
 .nav{
     background: #0b6f72;
+	overflow: auto;
     height: 80px;
     color: white;
     
@@ -191,3 +213,166 @@ header {
     background: #0b6164;
    
 }
+
+/*------------------------------------------ CUERPO -----------------------------------------------------*/
+#portafolio
+{
+	padding: 80px 0;
+}
+.portafolio-cuerpo
+{
+	display: flex;
+	padding: 150px 0;
+}
+.portafolio-cuerpo-titulo p.large
+{
+	padding-bottom: 15px;
+}
+
+.portafolio-cuerpo .h1
+{
+	font-size: 2.5rem;
+}
+.portafolio-cuerpo .h2
+{
+	font-size: 2rem;
+	font-weight: 500;
+}
+.portafolio-cuerpo .h4
+{
+	font-size: 1.5rem;
+}
+.portafolio-cuerpo .p
+{
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7rem;
+	font-weight: 300;
+}
+.portafolio-cuerpo .c
+{
+	text-decoration: none;
+}
+/* PORTFOLIO*/
+#portfolio
+{
+	padding: 80px 0;
+	text-align: center;
+}
+#portfolio p
+{
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.portfolio-cuerpo
+{
+	display: flex;
+}
+.portfolio-cuerpo img
+{
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+}
+/*sobre-mi*/
+#sobre-mi
+{
+	padding: 80px 0;
+	text-align: center;
+}
+#sobre-mi h2
+{
+	padding-bottom: 50px;
+}
+#sobre-mi p
+{
+	padding-bottom: 20px;
+}
+/*contacto*/
+#contacto
+{
+	padding: 80px 0;
+}
+#contacto h2
+{
+	text-align: center;
+}
+#contacto p
+{
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.contacto-cuerpo
+{
+	display: flex;
+	padding: 20px;
+}
+.contacto-cuerpo-imagen
+{
+	width: 50%;
+}
+.contacto-cuerpo-imagen img
+{
+	padding: 120px;
+}
+.contacto-cuerpo-formulario
+{
+	width: 50%;
+	border: 1px solid #c4c4c4;
+	border-radius: 10px;
+	padding: 70px;
+}
+.contacto-cuerpo-formulario h4
+{
+	padding-bottom: 40px;
+	text-align: center;
+}
+.txt-naranja
+{
+	color: #1c5a5c;
+}
+.display-1
+{
+	font-size: 4rem;
+}
+.btn-round
+{
+	border-radius: 20px;
+}
+.btn-dark
+{
+	background: #1c5a5c;
+	border: 1px solid #1c5a5c;
+	color: #fff;
+}
+.btn-dark:hover
+{
+	background: #144143;
+	color: #fff;
+}
+form label
+{
+	display: inline-block;
+	margin-bottom: 6px;
+}
+form .formulario-grupo
+{
+	margin-bottom: 16px;
+}
+form .formulario-control
+{
+	display: block;
+	width: 100%;
+	padding: 7px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background: #fff;
+	border: 1px solid #ced4da;
+	border-radius: 4px;
+}
+/*------------------------------------------  PIE DE PAGINA -----------------------------------------------------*/
